@@ -1,0 +1,39 @@
+.news__title {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 64px;
+	color: #ffffff;
+}
+.animals__info-text {
+	white-space: nowrap;
+}
+#news__btn_prev,
+#news__btn_next {
+	bottom: 0;
+}
+#swiper-slide-position {
+	margin-left: -85px;
+}
+@media screen and (max-width: 992px) {
+	#news__btn_prev,
+	#news__btn_next {
+		right: calc(50% - 340px);
+	}
+	#news__btn_prev {
+		right: 250px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.news__title {
+		font-size: 30px;
+	}
+	#news__btn_next {
+		right: calc(100% - 95%);
+	}
+	#news__btn_prev {
+		left: calc(100% - 95%);
+	}
+	#swiper-slide-position {
+		margin-left: auto;
+	}
+}

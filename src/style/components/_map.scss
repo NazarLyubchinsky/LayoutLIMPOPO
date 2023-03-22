@@ -1,0 +1,29 @@
+.map {
+	position: relative;
+	margin-top: 50px;
+}
+.map__title {
+	width: 88%;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 64px;
+	color: #ffffff;
+	position: absolute;
+	top: -30px;
+	left: 110px;
+}
+@media screen and (max-width: 768px) {
+	.map__title {
+		left: 20px;
+		font-size: 34px;
+	}
+}
+@media screen and (max-width: 330px) {
+	.map__title {
+		font-size: 30px;
+		top: 0;
+	}
+}
+.map__zoo img {
+	width: 100%;
+}

@@ -1,0 +1,146 @@
+.animals__wrapper {
+	margin-top: 30px;
+}
+.animals__title {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 64px;
+	color: #ffffff;
+}
+.swiper-slide img {
+	max-width: 120%;
+}
+
+.tabs__item {
+	font-size: 12px;
+	margin: 12px;
+	padding: 12px;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	transition: border 0.2s ease;
+}
+.tabs__item:hover {
+	border: 1px solid rgb(40, 196, 40);
+}
+.selected {
+	background-color: lightcoral;
+	border: 1px solid lightcoral;
+}
+.cards {
+	display: flex;
+	gap: 30px;
+}
+
+.animals__swiper,
+.animals__swiper {
+	bottom: 0;
+}
+.card-title {
+	white-space: nowrap;
+}
+
+.tabs__item {
+	background: #098214;
+	border-radius: 32px;
+	min-width: 85px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 6px 10px;
+}
+.list__animals {
+	position: absolute;
+	right: 90px;
+	border: none;
+	color: #f8d548;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.list__animals:hover {
+	color: rgb(232, 232, 60);
+}
+.list__animals-img {
+	margin-bottom: 3px;
+}
+.tabs__item.selected {
+	background: linear-gradient(90deg, #f46141 2.43%, #f29e2b 100%);
+	border: none;
+}
+.animals__name {
+	font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+	.animals__name {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.animals__swiper,
+	.animals__swiper {
+		right: calc(50% - 340px);
+	}
+	.swiper-button-prev {
+		right: 100px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#swiper-slide-position {
+		margin-left: auto;
+	}
+
+	.card-text {
+		max-width: 80%;
+	}
+	#news__btn_next {
+		right: calc(100% - 95%);
+	}
+	#news__btn_prev {
+		left: calc(100% - 95%);
+	}
+
+	.animals__title {
+		font-size: 50px;
+	}
+	.card-title {
+		font-size: 20px;
+	}
+	.tabs__list {
+		position: relative;
+	}
+	.list__animals {
+		position: absolute;
+		bottom: 111px;
+		right: -10px;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 461px) {
+	.list__animals {
+		display: none;
+	}
+}
+@media screen and (max-width: 460px) {
+	.tabs__list {
+		overflow-y: hidden;
+		overflow-x: scroll;
+	}
+	.tabs__list::-webkit-scrollbar {
+		height: 8px;
+		background: rgb(130, 221, 130);
+	}
+	.tabs__list::-webkit-scrollbar-thumb {
+		background: yellow;
+	}
+	.animals__swiper,
+	.animals__swiper {
+		right: calc(100% - 290px);
+	}
+	.swiper-button-prev {
+		right: 230px;
+	}
+}

@@ -1,0 +1,99 @@
+.patrions {
+	margin-top: 3rem;
+	height: 70vh;
+}
+.patrions__title {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 64px;
+	color: #ffffff;
+	margin-left: 150px;
+}
+.swiper {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.swiper-slide {
+	height: 400px;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+.swiper-slide,
+.card {
+	background: #098214;
+	border: none;
+}
+.card-body {
+	text-align: start;
+	color: #fff;
+	line-height: 1.2rem;
+}
+.lemur__img {
+	width: 15%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	top: unset !important;
+	bottom: 95px;
+	right: calc(50% - 100px);
+	background-image: url("../../assets/img/arrow_2.png");
+	background-size: 64px;
+	width: 64px;
+	height: 64px;
+	background-repeat: no-repeat;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+	content: "";
+}
+.swiper-button-next {
+	right: 156px;
+}
+.swiper-button-prev {
+	left: auto;
+	right: 258px;
+	transform: rotate(180deg);
+}
+
+@media screen and (max-width: 992px) {
+	.swiper-button-prev,
+	.swiper-button-next {
+		bottom: 165px;
+		right: calc(50% - 300px);
+	}
+	#btn_prev {
+		right: 300px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#news__btn_next {
+		right: calc(100% - 95%);
+	}
+	#news__btn_prev {
+		left: calc(100% - 95%);
+	}
+}
+@media screen and (max-width: 660px) {
+	.patrions__title {
+		font-size: 50px;
+		margin-left: 0;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 600px) {
+	.patrions__title {
+		font-size: 40px;
+	}
+}
