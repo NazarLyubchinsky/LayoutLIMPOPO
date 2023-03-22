@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/casperDev3/red-templates-webpack-5.git"
+    "url": "git+https://github.com/NazarLyubchinsky/push.git"
   },
   "keywords": [],
-  "author": "CasperDev3",
+  "author": "NazarLyubchinsky",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/casperDev3/red-templates-webpack-5/issues"
+    "url": "https://github.com/NazarLyubchinsky/push.git"
   },
-  "homepage": "https://github.com/casperDev3/red-templates-webpack-5#readme",
+  "homepage": "https://github.com/NazarLyubchinsky/push.git",
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
